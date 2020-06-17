@@ -8,8 +8,8 @@ I used following libraries-<br>
 3. windows.h <br>
   <br>
 The code snake.cpp show symbols to represent snake, food, borders, whereas the snake_color.cpp uses colours to show all of them.<br>
-Features-
-1. It has 3 difficulty options<br>
-2. P can pause the game.<br>
-3. C can end the game without dying.<br>
-4. All other basic rules of classic snake applies.<br>
+Features-<br>
+1. It has 3 difficulty options.
+2. P can pause the game.
+3. C can end the game without dying.
+4. All other basic rules of classic snake applies.
