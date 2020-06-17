@@ -5,7 +5,6 @@
 #include<synchapi.h>
 #include<algorithm>
 #include <windows.h>
-#include<fstream>
 using namespace std;
 namespace consoleforeground
 {
