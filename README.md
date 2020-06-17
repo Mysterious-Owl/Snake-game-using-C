@@ -1,6 +1,6 @@
 # Snake game using C++
 I created a snake game using C++, without the use of any graphics library.
-
+To see how this games looks and work- https://youtu.be/wUurtgaCA7w
 I used following libraries-
 #include<iostream>
 #include<vector>
@@ -16,3 +16,4 @@ features-
 2. P can pause the game.
 3. C can end the game without dying
 4. All other basic rules of classic snake applies.
+
