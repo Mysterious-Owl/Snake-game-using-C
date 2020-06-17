@@ -5,7 +5,6 @@
 #include<synchapi.h>
 #include<algorithm>
 #include <windows.h>
-#include<fstream>
 using namespace std;
 #define width 25
 #define lenght 50
