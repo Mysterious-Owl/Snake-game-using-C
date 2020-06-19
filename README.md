@@ -23,5 +23,5 @@ The code snake.cpp is final game consists of all features, which is too efficien
 <li> Can't die by touching its own body(modify in settings)(Default- No)
 <li> Change the dimensions of board(modify in settings)(Default- 27 118)
 <li> Two modes- Board can be made up of colours or of characters(modify in settings)(Default- Colour)
- </ul>
+ </ul><br>
 The other code snake_naive.cpp is the naive approach to this game, which I formed initially, it overwrites the whole screen and then writes it, then clears then writes it, so its not so efficient, slow but has a smaller code(almost half).
