@@ -53,7 +53,7 @@ void hidecursor()//to hide the colour in consolre window
    HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
    CONSOLE_CURSOR_INFO info;
    info.dwSize = 100;
-   info.bVisible = FALSE;//can be amde TRUE to show if want
+   info.bVisible = FALSE;		//can be made TRUE to show if want
    SetConsoleCursorInfo(consoleHandle, &info);
 }
 void setConsoleColour(unsigned short colour)//function to set colour
@@ -132,7 +132,7 @@ void print_highscore(){//printing high score(changes with time
 	int i,j;
 	setcursor(11,0);
 	setConsoleColour(consoleforeground::WHITE);
-	cout<<snake.size()/2-3;//-3 because the initial size of snake is 3
+	cout<<snake.size()/2-3<<"  ";//-3 because the initial size of snake is 3
 }
 void move_snake(int move,char direction){//moviing my snake //v-vertical, 1=up,-1=down
 	int i,j;
@@ -294,7 +294,7 @@ void settings(){//settings of game
 	setConsoleColour(consoleforeground::DARKYELLOW);
 	cout<<"4. Set the dimensions of BOARD \n";
 	setConsoleColour(consoleforeground::GRAY);
-	cout<<"Enter hieght and width- '25 100'    MAX-(27 118)\n\n";
+	cout<<"Enter height and width- '25 100'    If there is problem in printing then try decreasing the size, Default-27 118\n\n";
 	setConsoleColour(consoleforeground::DARKYELLOW);
 	cout<<"5. Die by hitting your own body\n";
 	setConsoleColour(consoleforeground::GRAY);
