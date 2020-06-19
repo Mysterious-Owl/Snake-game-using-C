@@ -24,4 +24,4 @@ The code **[snake.cpp](https://github.com/Mysterious-Owl/Snake-game-using-C/blob
 <li> Change the dimensions of board(modify in settings)(Default- 27 118)
 <li> Two modes- Board can be made up of colours or of characters(modify in settings)(Default- Colour)
  </ul><br>
-The other code <a href="https://github.com/Mysterious-Owl/Snake-game-using-C/blob/master/snake_naive_approach.cpp"> snake_naive_approach.cpp</a> is the **naive approach** to this game, which I formed initially, it *overwrites the whole screen and then writes it, then clears then writes it*, so its not so efficient, slow but has a smaller code(almost half).
+The other code <a href="https://github.com/Mysterious-Owl/Snake-game-using-C/blob/master/snake_naive_approach.cpp"> snake_naive_approach.cpp</a> is the naive approach to this game, which I formed initially, it overwrites the whole screen and then writes it, then clears then writes it, so its not so efficient, slow but has a smaller code(almost half).
